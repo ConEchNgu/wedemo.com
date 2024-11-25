@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Giới Thiệu Game Liên Minh Huyền Thoại</title>
+    <link rel="stylesheet" href="demoBTL.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="nav-logo">
+            <img src="download (2).png" alt="Riot Games" class="logo" style="height: 70px;">
+            <img src="download (3).png" alt="League of Legends" class="logo" style="height: 40px;">
+        </div>
+        <ul id="nav-links">
+                <li><a href="#">Trò Chơi</a></li>
+                <li><a href="#">Tướng</a></li>
+                <li><a href="#">Tin Tức▾</a>
+                    <ul class="submenu">
+                        <li><a href="">TẤT CẢ</a></li>
+                        <li><a href="">CẬP NHẬT TRÒ CHƠI</a></li>
+                        <li><a href="">ESPORTS</a></li>
+                        <li><a href="">ĐỘI NGŨ PHÁT TRIỂN</a></li>
+                        <li><a href="">TRUYỀN THÔNG</a></li>
+                        <li><a href="">CÔNG ĐỒNG</a></li>
+                        <li><a href="">RIOT GAMES</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Chi Tiết Cập Nhật</a></li>
+                <li><a href="#">Esports➚</a></li>
+                <li><a href="#">Vũ Trụ➚</a></li>
+                <li><a href="#">Hỗ Trợ➚</a></li>
+        </ul>
+        <div id="nav-search">
+            <input type="text" id="search-text" placeholder="Tìm kiếm...">
+            <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <a href="dang nhap.html">   <button id="login-btn">ĐĂNG NHẬP</button></a>
+    </nav>
+    
+    <header>
+        <video autoplay loop muted playsinline class="background-video">
+            <source src="1030(1) (1).mp4" type="video/mp4">
+            <img src="fallback-image.jpg" alt="Fallback image" />
+        </video>
+    
+        <div class="header-content">
+            <h1>LEAGUE OF <br>
+                LEGENDS</h1>
+            <a href="dang nhap.html" class="play-button">CHƠI MIỄN PHÍ</a>
+        </div>
+    </header>
+    
+    <div class="dau-muc">
+        <h2><b><i>TIN TỨC TIÊU BIỂU</i></b></h2>
+    </div>
+
+    <div class="news-container">
+        <div class="news-item">
+            <a href="https://www.youtube.com/watch?v=rR5vyzjGwmk"><img src="9ff86200eed0c2566469e2f5834890df2b0c9050-1920x1080_1.jpg" alt="Giới Thiệu Arcane" class="news-zoom"></a>
+            <p class="date">Cập nhật trò chơi | 16/10/2024</p>
+            <h3 class="title">Giới Thiệu Arcane Trong Trò Chơi</h3>
+            <p>Arcane sẽ đổ bộ trong tất cả các tựa game của Riot. Tham khảo thông tin và thời điểm ra mắt tại đây</p>
+        </div>
+    
+        <div class="news-item">
+            <a href="https://www.youtube.com/watch?v=rhTZTy1rZhw"><img src="80a534978df2098a5cc71afbd9cdd841bd795547-1920x1080.jpg" alt="Blood Sweat & Tears" class="news-zoom"></a>
+            <p class="date">Truyền thông | 26/10/2024</p>
+            <h3 class="title">Blood Sweat & Tears</h3>
+            <p>Ambessa nhìn thấy viễn cảnh tương lai khi bà tôn sùng Chiến Lang.</p>
+        </div>
+    
+        <div class="news-item">
+            <a href="https://www.youtube.com/watch?v=Sl-xmZTH6GE&embeds_referring_euri=https%3A%2F%2Fwww.leagueoflegends.com%2F"><img src="7d1f3b9692f198b77f8594ae56e19954fdfd8a1a-1920x1080.jpg" alt="Arcane: Trailer Phim" class="news-zoom"></a>
+            <p class="date">Truyền thông | 16/10/2024</p>
+            <h3 class="title">Arcane: Trailer Phim "Come Play"</h3>
+            <p>Cái giá phải trả cho sự tiến bộ.</p>
+        </div>
+    </div>
+
+    <section class="slider">
+        <h2>Những Vị Tướng Nổi Bật</h2>
+        <div class="slides">
+            <div class="slide"><img src="Yasuo_54.jpg" alt="Vị Tướng 1" width="1300px" height=700px"><h1 style="font-style: italic; font-weight: bold;">Yasou <br>Kẻ bất dung thứ</h1></div>
+            <div class="slide"><img src="072622-star-guardian-akali-splash.jpg" alt="Vị Tướng 2"  width="1300px" height=700px"><h1 style="font-style: italic; font-weight: bold;">Akali <br>Sát thủ đơn độc</h1></div>
+            <div class="slide"><img src="384048.jpg" alt="Vị Tướng 3"  width="1300px" height=700px"><h1 style="font-style: italic; font-weight: bold;">Master Yi <br>Kiếm sư WUJU</h1></div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </section>
+    
+    <footer>
+        <ul class="footer">
+            <li>Write by: Đào Minh Đức(CNTT-1808), Nguyễn Bảo Nguyên(CNTT-1808)</li>
+            <li>liên hệ: ducdaominh8@gmail.com</li>
+            <li><a href="https://www.example.com">https://www.example.com</a></li>
+        </ul>
+    </footer>
+    
+    <script>
+        let slideIndex = 0;
+        showSlides(slideIndex);
+
+        function moveSlide(n) {
+            showSlides(slideIndex += n);
+        }
+        
+        function showSlides(n) {
+            let slides = document.getElementsByClassName("slide");
+            if (n >= slides.length) { slideIndex = 0 }
+            if (n < 0) { slideIndex = slides.length - 1 }
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex].style.display = "block";
+        }
+
+        // Automatically move to the next slide every 3 seconds
+        setInterval(() => {
+            moveSlide(1);
+        }, 5000);
+    </script>
+</body>
+</html>
